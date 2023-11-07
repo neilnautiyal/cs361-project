@@ -5,6 +5,7 @@
 import time
 import check_the_weather
 import compare_the_weather
+import snow_day_calculator
 
 # Functions
 def print_menu():
@@ -24,6 +25,7 @@ def print_menu():
 valid_inputs = [1, 2, 3, 4]
 user_input = 5
 print("The Wonderful Weather App!")
+print("Check out the README to learn more about the current and upcoming features!")
 
 while user_input:  # While user input is invalid, keep looping
     print_menu()
@@ -38,7 +40,7 @@ while user_input:  # While user input is invalid, keep looping
         print("")
     elif user_input == 3:  # Option 3: Snow day calculator
         print("")
-        print("calculate the chances of a snow day")
+        snow_day_calculator.snow_day_calculator()
         print("")
     elif user_input == 4:  # Option 4: Quit Program
         print("")
