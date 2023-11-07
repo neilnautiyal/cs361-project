@@ -1,2 +1,5 @@
 # cs361-project
-test addition
+# Fall 2023
+# Oregon State University
+# Wonderful Weather
+# By Neil Nautiyal
